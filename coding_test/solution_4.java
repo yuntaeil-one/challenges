@@ -1,7 +1,13 @@
+package coding_test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
+/**
+ * @작성자 : YunTeaIl
+ * @작성일자 : 2020. 3. 4.
+ * @프로그램 설명 : 서머코딩/윈터코딩(~2018) > 스킬트리
+ */
 public class solution_4 {
 
 	public static void main(String[] args) {

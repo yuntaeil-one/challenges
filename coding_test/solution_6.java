@@ -1,15 +1,19 @@
+package coding_test;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @작성자 : YunTeaIl
+ * @작성일자 : 2020. 3. 4.
+ * @프로그램 설명 : 서머코딩/윈터코딩(~2018) > 소수 만들기
+ */
 public class solution_6 {
 	public static void main(String[] args) {
 //		int nums[] = { 1, 2, 3, 4 };
 		int nums[] = { 1, 2, 7, 6, 4 };
 		System.out.println(solution(nums));
-
 	}
-
 	public static int solution(int[] nums) {
 		int answer = -1;
 		// 소수 결과 목록
@@ -20,12 +24,9 @@ public class solution_6 {
 		answer = ret.size();
 		return answer;
 	}
-
 	// 재귀함수
 	public static void sosu(int[] nums, List<List<Integer>> ret, List<Integer> tmp) {
-
 		List<Integer> sortList = new ArrayList<>(tmp);
-		
 		// base case
 		if (tmp.size() == 3) {
 			int sum = 0;
@@ -46,15 +47,12 @@ public class solution_6 {
 			}
 			return;
 		}
-
 		// 재귀 반복
 		for (int num : nums) {
-			if (tmp.contains(num))
-				continue;
+			if (tmp.contains(num)) continue;
 			tmp.add(num);
 			sosu(nums, ret, tmp);
 			tmp.remove(tmp.size() - 1);
 		}
 	}
-
 }

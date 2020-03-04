@@ -1,5 +1,11 @@
+package coding_test;
 import java.util.ArrayList;
 
+/**
+ * @작성자 : YunTeaIl
+ * @작성일자 : 2020. 3. 4.
+ * @프로그램 설명 : 2018 KAKAO BLIND RECRUITMENT > 다트 게임
+ */
 public class solution_8 {
 
 	public static void main(String[] args) {

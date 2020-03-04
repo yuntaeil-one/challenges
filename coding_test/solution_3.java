@@ -1,7 +1,13 @@
+package coding_test;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * @작성자 : YunTeaIl
+ * @작성일자 : 2020. 3. 4.
+ * @프로그램 설명 : 2019 KAKAO BLIND RECRUITMENT > 오픈채팅방
+ */
 public class solution_3 {
 
 	public static void main(String[] args) {
