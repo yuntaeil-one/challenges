@@ -24,7 +24,7 @@ public class solution_5 {
 		
 		// 글자수
 		int wordsLength = words.length;
-		String word1 = "";
+		String word1 = ""; 
 		String word2 = "";
 		List<String> list = new ArrayList<String>();
 		
