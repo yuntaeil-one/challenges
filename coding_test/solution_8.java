@@ -36,7 +36,7 @@ public class solution_8 {
 				switch (String.valueOf(dartResult.charAt(i))) {
 				case "S":
 					subSum = subSum * 1;
-					list.add(subSum);
+					list.add(subSum); 
 					break;
 				case "D":
 					subSum = subSum * subSum;
