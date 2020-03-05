@@ -11,7 +11,7 @@ public class solution_9 {
 	public static void main(String[] args) {
 //		 String dirs = "cdcd";
 		String dirs = "baabaa";
-		System.out.println(solution(dirs));
+		System.out.println(solution(dirs)); 
 	}
 
 	public static int solution(String s) {
