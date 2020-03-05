@@ -53,6 +53,6 @@ public class solution_6 {
 			tmp.add(num);
 			sosu(nums, ret, tmp);
 			tmp.remove(tmp.size() - 1);
-		}
+		} 
 	}
 }
