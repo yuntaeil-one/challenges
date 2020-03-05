@@ -52,5 +52,5 @@ public class solution_3 {
 			answer[i] = String.format("%s님이 %s", name, codeMap.get(split[0].toLowerCase()));
 		}
 		return answer;
-	}
+	} 
 }
