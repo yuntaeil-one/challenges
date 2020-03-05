@@ -3,7 +3,7 @@ package coding_test;
 /**
  * @작성자 : YunTeaIl
  * @작성일자 : 2020. 3. 4.
- * @프로그램 설명 : 2018 KAKAO BLIND RECRUITMENT > 비밀지도
+ * @프로그램 설명 : 2018 KAKAO BLIND RECRUITMENT > 비밀지도 
  */
 public class solution_2 {
 
