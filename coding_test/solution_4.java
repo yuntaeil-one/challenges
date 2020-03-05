@@ -31,7 +31,7 @@ public class solution_4 {
 	            }
 	        }
 	        answer = skillTrees.size();
-	        return answer;
+	        return answer; 
 	    }
 
 }
