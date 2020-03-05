@@ -4,7 +4,7 @@ import java.util.Arrays;
 /**
  * @작성자 : YunTeaIl
  * @작성일자 : 2020. 3. 4.
- * @프로그램 설명 : 서머코딩/윈터코딩(~2018)> 예산 
+ * @프로그램 설명 : 서머코딩/윈터코딩(~2018)> 예산  
  */
 public class solution_1 {
 	public static void main(String[] args) {
