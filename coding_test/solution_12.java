@@ -104,7 +104,7 @@ public class solution_12 {
 		
 		intersection = list3.size() + list1.size() + list2.size();
 		
-        return intersection;
+        return intersection; 
 
 	}
 
