@@ -19,7 +19,7 @@ public class solution_11 {
 	}
 
 	public static int solution(int[] nums) {
-		
+		 
 		TreeSet<Integer> hs = new TreeSet<>();
 		
 		for(int i =0; i < nums.length; i++) {
